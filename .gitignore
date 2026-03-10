@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Build
+dist/
+build/
+target/
+*.dmg
+*.AppImage
+*.msi
+*.deb
+
+# Database
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ChromaDB vault
+patro_vault/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+.env.production
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+.tsbuildinfo
+
+# Tauri
+src-tauri/target/
+
+# ONNX model cache
+models/
+*.onnx
+
+# LangSmith outputs
+langsmith/outputs/*.json
+
+# Claude Code
+.claude/
+
+# Stale / unused
+ingestion/
+seeds/
